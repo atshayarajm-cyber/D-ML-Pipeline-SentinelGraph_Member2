@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Real AMLSim data is externally supplied and must not be committed.
+data/processed/amlsim_1m/*.parquet
+data/processed/amlsim_1m/*.zip
+
+# Generated model artifacts are created only after real training.
+models/*.json
